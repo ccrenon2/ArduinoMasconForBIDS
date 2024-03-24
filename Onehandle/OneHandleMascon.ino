@@ -25,44 +25,44 @@ void setup(){
   Serial.begin(19200);
 }
 void loop(){
-  if(DigitalRead(2) == HIGH){
-    Serial.print(TRS5¥n);
-  }else if(DigitalRead(3) == HIGH){
-    Serial.print(TRS4¥n);
-  }else if(DigitalRead(4) == HIGH){
-    Serial.print(TRS3¥n);
-  }else if(DigitalRead(5) == HIGH){
-    Serial.print(TRS2¥n);
-  }else if(DigitalRead(6) == HIGH){
-    Serial.print(TRS1¥n);
-  }else if(DigitalRead(7) == HIGH){
-    Serial.print(TRS0¥n);
-  }else if(DigitalRead(8) == HIGH){
-    Serial.print(TRS-1¥n);
-  }else if(DigitalRead(9) == HIGH){
-    Serial.print(TRS-2¥n);
-  }else if(DigitalRead(10) == HIGH){
-    Serial.print(TRS-3¥n);
-  }else if(DigitalRead(11) == HIGH){
-    Serial.print(TRS-4¥n);
-  }else if(DigitalRead(12) == HIGH){
-    Serial.print(TRS-5¥n);
-  }else if(DigitalRead(13) == HIGH){
-    Serial.print(TRS-6¥n);
-  }else if(DigitalRead(A0) == HIGH){
-    Serial.print(TRS-7¥n);
-  }else if(DigitalRead(A1) == HIGH){
-    Serial.print(TRS-8¥n);
-  }else if(DigitalRead(A2) == HIGH){
-    Serial.print(TRS-9¥n);
-  }else if(DigitalRead(A3) == HIGH){
-    Serial.print(TRS-10¥n);
+  if(digitalRead(2) == HIGH){
+    Serial.print("TRS5\n");
+  }else if(digitalRead(3) == HIGH){
+    Serial.print("TRS4\n");
+  }else if(digitalRead(4) == HIGH){
+    Serial.print("TRS3\n");
+  }else if(digitalRead(5) == HIGH){
+    Serial.print("TRS2\n");
+  }else if(digitalRead(6) == HIGH){
+    Serial.print("TRS1\n");
+  }else if(digitalRead(7) == HIGH){
+    Serial.print("TRS0\n");
+  }else if(digitalRead(8) == HIGH){
+    Serial.print("TRS-1\n");
+  }else if(digitalRead(9) == HIGH){
+    Serial.print("TRS-2\n");
+  }else if(digitalRead(10) == HIGH){
+    Serial.print("TRS-3\n");
+  }else if(digitalRead(11) == HIGH){
+    Serial.print("TRS-4\n");
+  }else if(digitalRead(12) == HIGH){
+    Serial.print("TRS-5\n");
+  }else if(digitalRead(13) == HIGH){
+    Serial.print("TRS-6\n");
+  }else if(digitalRead(A0) == HIGH){
+    Serial.print("TRS-7\n");
+  }else if(digitalRead(A1) == HIGH){
+    Serial.print("TRS-8\n");
+  }else if(digitalRead(A2) == HIGH){
+    Serial.print("TRS-9\n");
+  }else if(digitalRead(A3) == HIGH){
+    Serial.print("TRS-10\n");
   }
-  if(DigitalRead(A4) == HIGH){
-    Serial.print(TRRF¥n);
-  }else if(DigitalRead(A5) == HIGH){
-    Serial.print(TRRB¥n);
+  if(digitalRead(A4) == HIGH){
+    Serial.print("TRRF\n");
+  }else if(digitalRead(A5) == HIGH){
+    Serial.print("TRRB\n");
   }else{
-    Serial.print(TRRN¥n);
+    Serial.print("TRRN\n");
   }
 }
